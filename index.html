@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Celebration of Life</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Celebration of Life</h1>
+    </header>
+    <main>
+        <section id="event-details">
+            <h2>Event Details</h2>
+            <p>Date: May 3, 2025</p> <!-- Updated date -->
+            <p>Time: 12:30 PM, Arrival; 1:00 - 3:30 PM, Lunch and Program</p> <!-- Updated time -->
+            <p>Location: Blue Canyon Kitchen, 8960 Wilcox Dr., Twinsburg, OH, 44087</p> <!-- Updated location -->
+            <p>Join us to celebrate the life of our beloved Roberta "Rifke" Feinstein. Share your memories and spend time with friends and family.</p> <!-- Updated event description -->
+        </section>
+        <section id="rsvp">
+            <h2>RSVP</h2>
+            <form id="rsvp-form" action="https://docs.google.com/forms/d/e/1FAIpQLSfaWTztYQjFR9vZixf0af6UQttwh5a_NVA7gAYF5KFWYweZrg/formResponse" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="entry.2005620554" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="entry.1045781291" required>
+                
+                <label for="attending">Will you be attending?</label>
+                <select id="attending" name="entry.839337160" required>
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
+                </select>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Celebration of Life</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
