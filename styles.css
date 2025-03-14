@@ -61,7 +61,17 @@ footer {
     padding: 1em 0;
     background-color: #4CAF50;
     color: white;
-    position: relative;
+    position: relative; /* Changed from fixed to relative */
     width: 100%;
-    bottom: 0; */
+    bottom: 0;
+    margin: 0; /* Added to remove margins */
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 600px) {
+    footer {
+        padding: 0.5em 0;
+    }
 }
